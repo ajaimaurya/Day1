@@ -7,5 +7,7 @@ class Person:
         return f"{'name=',self.name}:{'dept=',self.dept}"
 p=Person("Ravi","sales")
 print(p.get_details())
+p1=Person("Sanjay","Clerk")
+print(p1.get_details)
 
     
